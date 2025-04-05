@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+           
+        
+        }
+        .nav{
+           
+            padding-top: 25px;
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            font-size: 20px;
+            background-color: rgb(255, 21, 21);
+            color: white;
+        }
+        .navl{
+            padding-left: 250px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        para{
+            padding-left: 25px;
+        }
+        .navr{
+            padding-right: 250px;
+        }
+        .navr i{
+            
+            width: 25px;
+            height: 25px;
+            margin-left: 5px;
+            padding-left: 7px;
+            padding-top: 7px;
+            border: solid 2px rgb(243, 242, 242);
+            border-radius: 20px;
+            color: white;
+            background-color: rgb(255, 0, 0);
+            transition: all 1s ease-in;
+            scale: 0.9;
+        }
+.navr i:hover{
+    color: black;
+    background-color: rgb(243, 245, 247);
+    transform: scale(0.9);
+}
+.left{margin-left: 200px;
+            display: flex;
+            flex-direction: row;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color:white;
+        }
+        a{ 
+            text-decoration: none;
+            color:rgb(20, 20, 20);
+            font-weight: bolder;
+            font-size: 20px;
+            
+        }
+       
+        .right a{
+           margin-right: 55px;
+        }
+        .right a:hover{
+            color: rgb(255, 25, 25);
+            
+        }
+        .right{
+            padding-top: 30px;
+        }
+        .lefrig
+            {margin-right: 200px;
+            color: white;
+            margin-top: 18px;
+            height: 30px;
+            border: solid 2px rgb(255, 255, 255);
+            padding-left: 9px;
+            padding-right: 9px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color: rgb(255, 20, 20);
+            border-radius: 5px;
+        }
+        .lefrig a{
+            color: rgb(253, 250, 250);
+            font-size: 20px;
+        }
+        .img{
+            
+            width: 90px;
+            height: 90px;
+        }
+        .p{
+    padding-top: 29px;
+    padding-left: 3px;
+            font-weight: bolder;
+            color: rgb(255, 25, 25);
+           font-size: 22px;
+        }
+       .right  .a{
+        color:rgb(255, 12, 12);
+        border-bottom: solid 3px  rgb(255, 25, 25);;
+       }
+      
+       .footer{
+    padding-top: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+  }
+  .d1 p{
+    padding-top: 15px;
+    line-height: 20px;
+  }
+   .d2 a{
+    display: flex;
+    flex-direction: column;
+    font-weight:lighter;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+   }
+   .d3 a{
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+   }
+   .d4 p{
+    line-height: 30px;
+   }
+   .footer h2{
+    color: rgb(253, 23, 23);
+   }
+   .footer i{
+    color: rgb(253, 23, 23);
+    padding-right: 10px;
+   }
+   .d1 i{
+    font-size: 30px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+   }
+   .div1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+   
+   }
+   .div12{
+    padding-right: 300px;
+   }
+   .div11{
+    padding-left: 300px;
+   }
+   .div11 i{
+    padding-left: 15px;
+    font-size: 20px;
+   }
+   footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+   }
+   .div11 i{
+            
+            width: 25px;
+            height: 25px;
+            margin-left: 5px;
+            padding-left: 7px;
+            padding-top: 7px;
+            border: solid 2px rgb(255, 22, 22);
+            border-radius: 20px;
+            color: white;
+            background-color: rgb(255, 0, 0);
+            transition: all 1s ease-in;
+            scale: 0.9;
+        }
+.div11 i:hover{
+    color: black;
+    background-color: rgb(243, 245, 247);
+    transform: scale(0.9);
+}
+h2{
+    color: rgb(255, 0, 0);
+}
+h1{
+    font-size: 60px;
+}
+span{
+    font-weight: bolder;
+    font-size: 25px;
+}
+b{
+    color: rgb(255, 0, 0);
+}
+ .img1{
+    width: 850px;
+    height: 750px;
+ }
+.br h1{
+    padding-bottom: 20px;
+}
+.op {
+padding-top: 20px;
+line-height: 24px;
+padding-bottom: 20px;
+}
+.br h3{
+    padding-bottom: 10px;
+}
+.br i{
+    padding-right: 15px;
+    padding-left:10px ;
+    color: rgb(255, 39, 39);
+
+    font-size: 17px;
+}.dr {
+    display: flex;
+    flex-direction: row;
+}
+ input{
+    width: 500px;
+    height: 40px;
+    border: solid 0.1px rgb(180, 180, 180);
+    font-size: medium;
+    padding-left: 10px;
+    color: black;
+}
+.ip{
+    width: 515px;
+    height: 40px;
+}
+span{
+    line-height: 40px;
+}
+.bday{
+    display: flex;
+    flex-direction: row;
+    padding-left:150px;
+    
+}
+.gg{
+    width: 1900px;
+    height: 800px;
+}
+    .br{
+        padding-top: 60px;
+        padding-left: 100px;
+    }
+   .ip{
+    background-color: rgb(255, 39, 39);
+    color: white;
+    font-weight: bolder;
+   }
+   .bday {
+display: flex;
+flex-direction: row;
+margin-top: 90px;
+animation: dp linear;
+    animation-timeline:view();
+            animation-range: entry 0 cover 30%;
+            
+         
+
+
+
+        }
+         
+        @keyframes dp{
+            from{
+                transform: scale(0);opacity: 0;
+            }
+            to{ 
+   
+                transform:scale(1);opacity: 1;
+            }
+  }
+  .lef12 h2{
+    color: black;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+  .dr i{
+    color: red;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .lef img{
+    width: 260px;
+    height: 160px;
+    border-radius: 20px;
+  }
+  .rig img{
+    width: 700px;
+    height: 700px;
+margin-top: 120px;
+margin-left: 60px;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border: solid 2px red;
+  }
+  .lef{
+    padding-top: 30px;
+    display: flex;
+    flex-direction:column;
+    padding-left: 80px;
+    animation: dp linear;
+    animation-timeline:view();
+            animation-range: entry 0 cover 40%;
+
+        }
+         
+        @keyframes dp{
+            from{
+                transform: scale(0);opacity: 0;
+            }
+            to{ 
+   
+                transform:scale(1);opacity: 1;
+            }
+  }
+  .lef1{
+    display: flex;
+    flex-direction: row;
+   padding-top: 20px;
+  }
+  .upevent{
+    display: flex;
+    flex-direction: row;
+margin-top: 100px;
+background-color: rgb(243, 245, 247);
+    padding-bottom: 20px;
+  }
+  .lef12 h2{
+    padding-bottom: 17px;
+  }
+  .lef12 i{
+    padding-bottom: 20px;
+    
+  }
+  .dr0{
+    border-bottom: solid 0.1px black;
+
+  }
+  .dr0 i{
+    color: red;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .dr1{
+    padding-top: 10px;
+  }
+  .lef12{
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+  .rig{
+    padding-left: 50px;
+
+    animation: dp linear;
+    animation-timeline:view();
+            animation-range: entry 0 cover 30%;
+            
+         
+
+
+
+        }
+         
+        @keyframes dp{
+            from{
+                transform: scale(0);opacity: 0;
+            }
+            to{ 
+   
+                transform:scale(0.95);opacity: 1;
+            }
+  }
+  .dr0  {
+    display: flex;
+    flex-direction: row;
+}
+  .ppp{
+    margin-top: 30px;
+    padding: 12px 35px 12px 35px;
+        font-size: 16px;
+        border: solid 2px rgb(255, 12, 12);
+background-color:rgb(255, 12, 12);
+color: white;
+font-weight: bold;
+margin-left: 9%;
+
+}
+.ppp:hover{
+    color:rgb(255, 12, 12);
+background-color: white;
+}
+.rigg{
+    width: 400px;
+    padding-left: 100px;
+    padding-right: 60px;
+    padding-top: 300px;
+    border: solid 1px black;
+    padding-bottom: 300px;
+   margin-top: -950px;
+   margin-left: 170px;
+   
+   
+}
+.lef h1{
+    font-size: 50px;
+}
+.bl{
+    animation: dp linear;
+    animation-timeline:view();
+            animation-range: entry 0 cover 30%;
+            
+         
+
+
+
+        }
+         
+        @keyframes dp{
+            from{
+                transform: scale(0);opacity: 0;
+            }
+            to{ 
+   
+                transform:scale(0.95);opacity: 1;
+            }
+        }
+        .lefrig i{
+  font-size: 30px;
+  border-radius: 10px;
+  color: red;
+ 
+}
+.lefrig{
+  background-color: white;
+}
+
+   </style>
+</head>
+<body>
+    <div class="home">
+        <div class="nav">
+            <div class="navl">
+               <para><i class="fa-solid fa-phone"></i></para>  
+               <para>Tel: +440-550-660 </para>
+               <para>|</para> 
+               <para><i class="fa-solid fa-envelope"></i>   </para>
+               <para>bloodworld123@gmail.com</para>
+               <para>|</para> 
+               <para>24/7 Available<br>Sunday-Saturday</para>
+            </div>
+            <div class="navr">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <img class="img" src="https://media.istockphoto.com/id/1307616924/vector/switzerland-flag-in-heart-country-of-europe-isolated-vector-icon-in-flat.jpg?s=612x612&w=0&k=20&c=lb5IUkD6Uy1I8DvrLYSGqIljsZBmeqqzEwvDcRr9WoU=">
+                
+                <p class="p">BLOOD WORLD</p>
+            </div>
+        
+        <div class="right">
+            <a href="home.html" >Home</a>
+            <a href="about1.html" >AboutUs</a>
+            <a href="events.html" class="a">Events</a>
+            <a href="donate.html">Donate Blood</a>
+            <a href="need.html">Need Blood</a>
+          
+        </div>
+           
+        <div class="lefrig">
+            <i class="fa-solid fa-circle-user"></i>
+        </div>
+    </div>
+
+
+
+    <div class="bg">
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="https://www.nm.org//-/media/northwestern/healthbeat/images/healthy-tips/nm-9-myths-about-donating-blood_preview.jpg" alt="Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://media-cdn.socastsrm.com/wordpress/wp-content/blogs.dir/2116/files/2024/07/1920-donatingblood.jpg" alt="Image 1">
+                </div>
+               
+                    <div class="carousel-item">
+                        <img src="https://biobridgeglobal.org/wp-content/uploads/2020/09/Types-of-Donations-squeezeball.png" alt="Image 2">
+                    </div>
+                <div class="carousel-item">
+                    <img src="https://www.lanermc.org/hs-fs/hubfs/AdobeStock_234194143.jpeg?width=500&height=333&name=AdobeStock_234194143.jpeg" alt="Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://northeastlondon.icb.nhs.uk/wp-content/uploads/2024/06/Blood-test-3-scaled.jpg" alt="Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://myhealth-redcliffelabs.redcliffelabs.com/media/blogcard-images/3576/1ac6c03f-5607-4ba2-9e1b-4d87c9f51452.jpg" alt="Image 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.ctfassets.net/pjshm78m9jt4/367938_header/9c073fdf59b0042028cbde5c3c2c084b/importedImage367938_header" alt="Image 1">
+                </div>
+               
+                <div class="carousel-item">
+                    <img src="https://mumbaimirror.indiatimes.com/photo/78962219.cms" alt="Image 3">
+                </div>
+
+                <!-- Add more carousel items here -->
+            </div>
+            <div class="carousel-nav">
+                <button class="prev-btn">&lt;</button>
+                <button class="next-btn">&gt;</button>
+            </div>
+            <div class="carousel-indicators">
+                <button class="indicator-btn active"></button>
+                <button class="indicator-btn"></button>
+            
+                <button class="indicator-btn"></button>
+                <button class="indicator-btn"></button>
+                <button class="indicator-btn"></button>
+                <button class="indicator-btn"></button>
+                <button class="indicator-btn"></button>
+                <button class="indicator-btn"></button>
+                <!-- Add more indicator buttons here -->
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+
+    <div class="upevent">
+        <div class="lef">
+<h2> ━━━ Upcoming  Events & Drives</h2>
+<h1>Dont't Miss Out!Upcoming Blood <br>Donation Events</h1>
+<div class="lef1">
+    <div class="lef11">
+<img src="https://npr.brightspotcdn.com/dims4/default/4d5d308/2147483647/strip/true/crop/1760x1174+0+0/resize/880x587!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2Fb6%2F29f85cee4ec1bac5874fa7d3f3cd%2Fbloodbank-wmfe-051523.jpg">
+</div>
+    <div class="lef12">
+<h2>Blood donation Camps</h2>
+<div class="dr0">
+    <p><i class="fa-solid fa-calendar-days"></i>March 30,2025</p>
+    <p><i class="fa-solid fa-clock"></i>9:00 AM-5:00 PM</p>
+    <p><i class="fa-solid fa-location-dot"></i>government High School,Rajahmundry</p>
+    <br>
+    </div>
+    <div class="dr1">
+    <p> These are organized by Indian Red Cross Society and other organizations, where people can <br>voluntarily donate blood.</p>
+    </div>
+    </div>
+</div>
+
+<div class="lef1">
+    <div class="lef11">
+<img src="https://zahrah.creedcreatives.net/donors/wp-content/uploads/sites/31/2025/02/young-woman-with-a-phone-making-blood-donation-in-2023-11-27-05-13-02-utc.jpg">
+    </div>
+    <div class="lef12">
+<h2>Blood Donation Drives</h2>
+<div class="dr0">
+    <p><i class="fa-solid fa-calendar-days"></i>August 03,2025</p>
+    <p><i class="fa-solid fa-clock"></i>9:00 AM-5:00 PM</p>
+    <p><i class="fa-solid fa-location-dot"></i>Rajahmundry,India</p>
+    <br>
+    </div>
+    <div class="dr1">
+        <p>These are organized by companies, educational institutions, and other organizations to collect<br> blood donations from voluntary donors.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="lef1">
+            <div class="lef11">
+        <img src="https://etvbharatimages.akamaized.net/etvbharat/prod-images/13-06-2024/1200-675-21704739-773-21704739-1718287620885.jpg?imwidth=1200">
+            </div>
+            <div class="lef12">
+        <h2>World Blood Donor Day</h2>
+        <div class="dr0">
+            <p><i class="fa-solid fa-calendar-days"></i>June 14,</p>
+            <p><i class="fa-solid fa-clock"></i>9:00 AM-5:00 PM</p>
+            <p><i class="fa-solid fa-location-dot"></i>Rajahmundry,India</p>
+            <br>
+            </div>
+            <div class="dr1">
+                <p>This is an annual event celebrated on June 14th to raise awareness about the importance of<br> blood donation </p>
+                </div>
+            </div>
+    </div>
+
+
+    <div class="lef1">
+        <div class="lef11">
+    <img src="https://t4.ftcdn.net/jpg/01/68/10/89/240_F_168108986_0HmiffUlvYaI2hs1hNDxAOTH1njv45yv.jpg">
+        </div>
+        <div class="lef12">
+    <h2>National Voluntary Blood Donation Day:</h2>
+    <div class="dr0">
+        <p><i class="fa-solid fa-calendar-days"></i>October 1,</p>
+        <p><i class="fa-solid fa-clock"></i>9:00 AM-5:00 PM</p>
+        <p><i class="fa-solid fa-location-dot"></i>Kakinada,India</p>
+        <br>
+        </div>
+        <div class="dr1">
+            <p>This is observed on October 1st in India to encourage healthy people to donate blood voluntarily  </p>
+            </div>
+        </div>
+</div>
+
+
+    </div>
+        <div class="rig">
+<img src="https://zahrah.creedcreatives.net/donors/wp-content/uploads/sites/31/2025/02/redhead-volunteer-with-transfusion-set-squeezing-r-2024-11-15-06-09-45-utc.jpg">
+       
+       </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+     
+
+
+    <div class="bday">
+            <div class="bl">
+      
+                <img class="img1" src="https://t4.ftcdn.net/jpg/10/67/47/91/240_F_1067479195_nWvIWuXTpOWYyH1kVgrIHTLtRAisYpmj.jpg">
+                </div>
+                        <div class="br">           
+<h2> ━━━ Donors Day</h2>
+<h1>World Blood Donors Day</h1>
+<span>Every Year ,on 14 June,countries around the world celebrate <br><b> World Blood Donar Day</b></span>
+<p class="op">World Blood Donor Day celebrates the lifesaving contributions of
+<br>blood donors and raises awareness on the ongoing need for safe of<br>
+ blood donations worldwide. World blood donors day is celebrated <br>
+ to rause awareness about the importance of safe blood and blood <br>
+ products and to talk voluntary,unpaid blood donors for their life
+ <br>-saving gifts.</p>
+<h3>Register Today!</h3>
+<div class="dr">
+    <p><i class="fa-solid fa-location-dot"></i>54-3anywhereinIndia,Andhra pradesh</p>
+    <p><i class="fa-solid fa-calendar-days"></i>14 June</p>
+    <p><i class="fa-solid fa-clock"></i>9:00 AM-5:00 PM</p>
+    </div>
+    <br>
+<div class="dr1">
+    <input type="text" name="Name" placeholder="Name"><br><br>
+   <input type="number" placeholder="Phone Number" ><br><br>
+   <input class="ip" type="button" value="REGISTER">
+   </div>
+</div>
+    </div>
+
+   
+
+
+    <footer>
+        <div class="footer">
+        <div class="d1">
+        <i class="fa-solid fa-droplet"></i><br> 
+        <h2>Blood World</h2>
+        <p>We are here to save the <br>life of thousands people <br>By donating blood, all <br>can make a significant in<br> their community</p>
+        </div>
+        <div class="d2">
+        <h2>Quick Links</h2>
+          <a href="Home.html">Home</a>
+          <a href="about1.html">AboutUs</a>
+          <a href="events.html">Events</a>
+         
+        </div>
+        <div class="d3">
+        <h2>Information</h2>
+        <a href="donate.html">Donate Blood</a>
+        <a href="need.html">Need Blood</a>
+        </div>
+        <div class="d4">
+        <h2>Contact info</h2>
+        <p><i class="fa-solid fa-phone"></i>+9988776655</p>
+        <p><i class="fa-solid fa-envelope"></i>bloodworld123.gmail.com</p>
+        <p><i class="fa-solid fa-location-dot"></i>54-3anywhereinIndia,Andhra pradesh</p>
+        </div>
+        
+        </div>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <div class="div1">
+        <div class="div11">
+        <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="div12">
+        <p>Copyright &copy;2025 Donors,All rights reserved,present by BloodworldIndia</p>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
