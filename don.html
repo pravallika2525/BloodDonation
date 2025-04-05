@@ -1,0 +1,248 @@
+    
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://static.vecteezy.com/system/resources/previews/007/849/061/non_2x/world-blood-donor-background-free-vector.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .don h2{
+    font-size: 40px;
+    padding-bottom: 5px;
+    padding-left: 320px;
+    color:white;
+    
+}
+.don{
+    margin-top: 10px;
+    border: solid 2px white;
+    border-radius: 20px;
+    height: 930px;
+    width: 990px;
+    backdrop-filter: blur(50px);
+    font-weight: bolder;
+}
+.donn{
+    margin-left: 500px;
+    
+}
+sup{
+    color: red;
+    font-size: 20px;
+}
+input{
+    padding-left: 10px;
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid 0.5px rgb(141, 141, 141);
+}
+.row1{
+    display:flex;
+    flex-direction: row;
+
+}
+.ro1{
+    margin-left: 30px;
+}
+.ro2{
+    margin-left: 100px;
+}
+  select{
+    padding-left: 10px;
+    width: 415px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid 0.5px rgb(141, 141, 141);
+  } 
+   .sub{
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    font-size: 19px;
+    color: white;
+    margin-left: 420px;
+    margin-top: 60px;
+    opacity: 0.8;
+   }
+   .sub:hover{
+    opacity: calc(1);
+   }
+.don h2{
+    color: red;
+}
+    </style>
+   </head>
+   <body>
+    
+   
+   
+   
+    <div class="donn">
+        <div class="don">
+            <h2>Blood Donation Form</h2>
+        
+            
+           
+        
+        
+            <div class="row1">
+                <div class="ro1">
+                    First Name:<sup>*</sup><br><br>
+                    <input type="text" name="firstName" placeholder="First Name"> 
+                </div>
+        
+                <div class="ro2">
+                    Last Name<sup>*</sup><br><br>
+                    <input type="text" name="lastName" placeholder="Last Name"> 
+                </div>
+            </div>
+        
+        
+            <div class="row1">
+                <div class="ro1">
+                    Date Of Birth<sup>*</sup><br><br>
+                    <input type="date" name="dob" placeholder="Full Name"> 
+                </div>
+        
+                <div class="ro2">
+                    Age:<sup>*</sup><br><br>
+                    <input type="number" name="age" placeholder="Age"> 
+                </div>
+            </div>
+        
+        
+            <div class="row1">
+                <div class="ro1">
+                    Father Name:<sup>*</sup><br><br>
+                    <input type="text" name="fName" placeholder="Father Name"> 
+                </div>
+        
+                <div class="ro2">
+                    Mother Name:<sup>*</sup><br><br>
+                    <input type="text" name="mName" placeholder="Mother Name"> 
+                </div>
+            </div>
+        
+        
+        
+            <div class="row1">
+                <div class="ro1">
+                    Gender:<sup>*</sup><br><br>
+                    <select id="Gender" name="gender">
+                    <option>Select Value</option>
+                    <option>Male</option>
+                    <option>FeMale</option>
+                    <option>Other</option>
+                    
+                    </select>
+                </div>
+        
+                <div class="ro2">
+                    Martial status:<sup>*</sup><br><br>
+                    <select id="martial status" name="martialstatus">
+                        <option>Select Value</option>
+                        <option>Married</option>
+                        <option>Un Married</option>
+                        </select>
+                </div>
+            </div>
+            
+        
+        
+            <div class="row1">
+                <div class="ro1">
+                    Mobile:<sup>*</sup><br><br>
+                    <input type="text" name="mobile" placeholder="Your Mobile "> 
+                </div>
+        
+                <div class="ro2">
+                    Email:<sup>*</sup><br><br>
+                    <input type="email" name="email" placeholder="your Email"> 
+                </div>
+            </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            <div class="row1">
+                <div class="ro1">
+                <label for="state">State:<sup>*</sup></label><br><br>
+                <select id="state" name="state" onchange="updateDistricts()" >
+                    <option value="">Select State</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    
+                    <!-- Add more states as needed -->
+                </select>
+        </div>
+        <div class="ro2">
+                <label for="district">District:<sup>*</sup></label><br><br>
+                <select id="district" name="district">
+                    <option value="">Select District</option>
+                    <!-- District options will be populated based on selected state -->
+                </select>
+            </div>
+        </div>
+        <script src="script1.js"></script>
+        
+        <div class="row1">
+            <div class="ro1">
+                Address:<sup>*</sup><br><br>
+                <input type="text" name="address" placeholder="Address"> 
+            </div>
+        
+            <div class="ro2">
+                Pincode:<sup>*</sup><br><br>
+                <input type="text" name="pincode" placeholder="pincode"> 
+            </div>
+        </div>
+
+
+        <div class="row1">
+           
+        <div class="ro1">
+        Last Donation: <sup>*</sup><br><br>
+        <input type="text">
+</div>
+
+<div class="ro2">
+    Physically Disabled:<sup>*</sup><br><br>
+    <select  id="physical" name="physical">
+        <option>select value</option>
+        <option>Yes</option> 
+        <option>No</option> 
+        </select>
+</div>
+</div>
+        
+       <a href="response.html"><input class="sub" type="submit" value="Register"></a> 
+        <div id="success-message" style="display: none;">
+            <p>Successfully registered! We will mail you soon.</p>
+        </div>
+        
+      
+        
+        
+        
+        
+        
+        </form>
+        
+        </div>
+        
+        <br>
+        </div>
+        </body>
+        </html>
