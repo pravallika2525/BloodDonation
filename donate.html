@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+           
+        }
+        .nav{
+            
+            padding-top: 25px;
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            font-size: 20px;
+            background-color: rgb(255, 21, 21);
+            color: white;
+        }
+        .navl{
+            padding-left: 250px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        para{
+            padding-left: 25px;
+        }
+        .navr{
+            padding-right: 250px;
+        }
+
+       
+
+        .navr i{
+            
+            width: 25px;
+            height: 25px;
+            margin-left: 5px;
+            padding-left: 7px;
+            padding-top: 7px;
+            border: solid 2px rgb(243, 242, 242);
+            border-radius: 20px;
+            color: white;
+            background-color: rgb(255, 0, 0);
+            transition: all 1s ease-in;
+            scale: 0.9;
+        }
+.navr i:hover{
+    color: black;
+    background-color: rgb(243, 245, 247);
+    transform: scale(0.9);
+}
+.left{margin-left: 200px;
+            display: flex;
+            flex-direction: row;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color:white;
+        }
+        a{ 
+            text-decoration: none;
+            color:rgb(20, 20, 20);
+            font-weight: bolder;
+            font-size: 20px;
+            
+        }
+       
+        .right a{
+           margin-right: 55px;
+        }
+        .right a:hover{
+            color: rgb(255, 25, 25);
+            
+        }
+        .right{
+            padding-top: 30px;
+        }
+        .lefrig
+            {margin-right: 200px;
+            color: white;
+            margin-top: 18px;
+            height: 30px;
+            border: solid 2px rgb(255, 255, 255);
+            padding-left: 9px;
+            padding-right: 9px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color: rgb(255, 20, 20);
+            border-radius: 5px;
+        }
+        .lefrig a{
+            color: rgb(253, 250, 250);
+            font-size: 20px;
+        }
+        .img{
+            
+            width: 90px;
+            height: 90px;
+        }
+        .p{
+    padding-top: 29px;
+    padding-left: 3px;
+            font-weight: bolder;
+            color: rgb(255, 25, 25);
+           font-size: 22px;
+        }
+       .right  .a{
+        color:rgb(255, 12, 12);
+        border-bottom: solid 3px  rgb(255, 25, 25);;
+       }
+      
+       .footer{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .d1 p{
+    padding-top: 15px;
+    line-height: 20px;
+  }
+   .d2 a{
+    display: flex;
+    flex-direction: column;
+    font-weight:lighter;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+   }
+   .d3 a{
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+   }
+   .d4 p{
+    line-height: 30px;
+   }
+   .footer h2{
+    color: rgb(253, 23, 23);
+   }
+   .footer i{
+    color: rgb(253, 23, 23);
+    padding-right: 10px;
+   }
+   .d1 i{
+    font-size: 30px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+   }
+   .div1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+   
+   }
+   .div12{
+    padding-right: 300px;
+   }
+   .div11{
+    padding-left: 300px;
+   }
+   .div11 i{
+    padding-left: 15px;
+    font-size: 20px;
+   }
+   footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+   }
+   .div11 i{
+            
+            width: 25px;
+            height: 25px;
+            margin-left: 5px;
+            padding-left: 7px;
+            padding-top: 7px;
+            border: solid 2px rgb(255, 22, 22);
+            border-radius: 20px;
+            color: white;
+            background-color: rgb(255, 0, 0);
+            transition: all 1s ease-in;
+            scale: 0.9;
+        }
+.div11 i:hover{
+    color: black;
+    background-color: rgb(243, 245, 247);
+    transform: scale(0.9);
+}
+    
+.don{
+   
+    width: 1000px;
+    height: 840px;
+    margin-left: 450px;
+    border: solid 2px rgb(126, 126, 126);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;  backdrop-filter: blur(20px);
+  
+   
+
+}
+.donn{
+    
+}
+.don h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+sup{
+    color: red;
+    font-size: 20px;
+}
+input{
+    padding-left: 10px;
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid 0.5px rgb(141, 141, 141);
+}
+.row1{
+    display:flex;
+    flex-direction: row;
+
+}
+.ro1{
+    margin-left: 30px;
+}
+.ro2{
+    margin-left: 100px;
+}
+  select{
+    padding-left: 10px;
+    width: 415px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid 0.5px rgb(141, 141, 141);
+  } 
+   .sub{
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    font-size: 19px;
+    color: white;
+    margin-left: 420px;
+    margin-top: 60px;
+    opacity: 0.8;
+   }
+   .sub:hover{
+    opacity: calc(1);
+   }
+   .photo{
+    
+    padding-top: 170px;
+    padding-bottom: 200px;
+   height: 400px;
+    background-image: url("wo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   h2{
+    color: rgb(253, 23, 23);
+
+
+   }
+   h1{
+    font-size: 60px;
+   }
+   span{
+    font-size: medium;
+    font-weight: bold;
+   }
+   .web2 p{
+    font-size: 20px;
+    line-height: 40px;
+   }
+   .web2 i{
+    color: rgb(253, 23, 23);
+    font-size: 14px;
+    padding-right: 8px;
+   }
+   .web2 h3{
+    font-size: 30px;
+   }
+   .web{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    background-color: rgb(243, 245, 247);
+    padding-top: 30px;
+    padding-bottom: 30px;
+   }
+   .web2{
+    padding-top: 2%;
+    padding-left: 100px;
+    animation: dp linear;
+    animation-timeline:view();
+            animation-range: entry 0 cover 30%;
+            
+         
+
+
+
+        }
+         
+        @keyframes dp{
+            from{
+                transform: scale(0);opacity: 0;
+            }
+            to{ 
+   
+                transform:scale(1);opacity: 1;
+            }
+
+  
+  }
+   .web1{
+    margin-left: 80px;
+    animation: dp linear;
+    animation-timeline:view();
+            animation-range: entry 0 cover 30%;
+            
+         
+
+
+
+        }
+         
+        @keyframes dp{
+            from{
+                transform: scale(0);opacity: 0;
+            }
+            to{ 
+   
+                transform:scale(1);opacity: 1;
+            }
+
+  
+  
+   }
+   .web1 img{
+    width: 600px;
+    height: 500px;
+    border: solid 2px  red;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    margin-left: 50px;
+   }
+   .we{
+    margin-top: 40px;
+   background-image: url("WhatsApp Image 2025-03-24 at 00.10.16_888ff343.jpg");
+   background-repeat: no-repeat;
+   background-size: contain;
+   padding: 50px 200px 400px 440px;
+   margin-left: 30px;
+   }.we h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    padding-left: 300px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+   }
+   .we p{
+    padding-left: 100px;
+    font-size: 22px;
+    padding-bottom: 30px;
+
+   }
+   .we1{
+    
+    backdrop-filter: blur(20px);
+    animation: dp linear;
+    animation-timeline:view();
+            animation-range: entry 0 cover 30%;
+            
+         
+
+
+
+        }
+         
+        @keyframes dp{
+            from{
+                transform: scale(0);opacity: 0;
+            }
+            to{ 
+   
+                transform:scale(1);opacity: 1;
+            }
+
+  
+  
+   }
+   button{
+    padding: 17px 50px 17px 50px;font-size: 19px;
+    
+    background-color: red;
+    color:white;
+margin-top: 20px;
+border: solid 1px white;
+   }
+   button:hover{
+    color: red;
+    background-color: transparent;
+   }
+   .photo{
+    padding-left: 50px;
+    font-size: 20px;
+   }
+   .photo span{
+    font-size: 20px;
+   }
+   .photo p{
+    line-height: 30px;
+   }
+
+
+   .lefrig i{
+  font-size: 30px;
+  border-radius: 10px;
+  color: red;
+ 
+}
+.lefrig{
+  background-color: white;
+}
+   </style>
+</head><body>
+    <div class="home">
+        <div class="nav">
+            <div class="navl">
+               <para><i class="fa-solid fa-phone"></i></para>  
+               <para>Tel: +440-550-660 </para>
+               <para>|</para> 
+               <para><i class="fa-solid fa-envelope"></i>   </para>
+               <para>bloodworld123@gmail.com</para>
+               <para>|</para> 
+               <para>24/7 Available<br>Sunday-Saturday</para>
+            </div>
+            <div class="navr">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <img class="img" src="https://media.istockphoto.com/id/1307616924/vector/switzerland-flag-in-heart-country-of-europe-isolated-vector-icon-in-flat.jpg?s=612x612&w=0&k=20&c=lb5IUkD6Uy1I8DvrLYSGqIljsZBmeqqzEwvDcRr9WoU=">
+                
+                <p class="p">BLOOD WORLD</p>
+            </div>
+        
+        <div class="right">
+            <a href="home.html" >Home</a>
+            <a href="about1.html" >AboutUs</a>
+            <a href="events.html" >Events</a>
+            <a href="donate.html" class="a">Donate Blood</a>
+            <a href="need.html">Need Blood</a>
+          
+        </div>
+           
+        <div class="lefrig">
+             <i class="fa-solid fa-circle-user"></i>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+
+    <div class="photo">
+        <h2> ━━━ How Much We Can Donate</h>
+                <h1>Each donation is safe and<br> can help several people
+                    </h1>
+<br><br>
+                    <span class="ds">Did you know that one person in a severe traffic accident could need up to 100 units<br> of blood? Or, as a nation, we use around 36,000 units of blood a day?<br></span><br>
+                
+
+                        <p>“We use and need blood readily available to all local area hospitals. Currently, about<br> 7 million volunteers donate about 13.5 million units of blood a year across the <br>nation. But if we are going to stay ahead of the curve in our area, it is vital <br>for all eligible community members to donate,”<b>Stephanie</b></p>
+                <a href="don.html"><button>Donate Blood</button></a>
+                    </div>
+    </div>
+
+<div class="web">
+    <div class="web1">
+        <img src="https://t3.ftcdn.net/jpg/01/91/87/42/240_F_191874216_tsIiW1IzfVZFykipsiS8p9dhrSXrPf18.jpg">
+    </div>
+
+
+    <div class="web2">
+        <h2>━━━━━ Who can Donate</h2><br>
+        <h3>To be eligible to donate blood, an individual must meet certain criteria</h3><br>
+<p>
+    <i class="fa-solid fa-circle"></i> Have a photo ID<br>
+    <i class="fa-solid fa-circle"></i>  Have not given blood within the last 56 days<br>
+    <i class="fa-solid fa-circle"></i>  Must be at least 17 years of age, or age 16 with parental consent<br>
+    <i class="fa-solid fa-circle"></i> Must be in good health<br>
+    <i class="fa-solid fa-circle"></i> Must weigh at least 110 pounds<br>
+    <i class="fa-solid fa-circle"></i> Must pass the physical and health history exam given before donation<br>
+    <i class="fa-solid fa-circle"></i> Not been pregnant within the last six weeks<br>
+    <i class="fa-solid fa-circle"></i> Not received blood products within the last three months</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="web">
+
+
+
+<div class="web2">
+    <h2>━━━━━ Who can Not Donate</h2><br>
+    <h3>Here are the individuals who are typically not eligible to donate blood:
+    </h3><br>
+<p>
+    <i class="fa-solid fa-circle"></i>Received cancer treatments within the last year<br>
+    <i class="fa-solid fa-circle"></i> Creutzfeldt-Jakob disease<br>
+    <i class="fa-solid fa-circle"></i>Symptoms of illness – you don’t feel well, suffering from cold, flu, etc.<br>
+    <i class="fa-solid fa-circle"></i>Been exposed to HIV/AIDS in the last three months<br>
+    <i class="fa-solid fa-circle"></i>Low iron – A low iron count will exclude you until you can take steps to raise your iron levels<br>
+    <i class="fa-solid fa-circle"></i>Taken certain medications – While most medicines don’t exclude you from donating,<br> you might have to observe a waiting period before donating<br>
+    <i class="fa-solid fa-circle"></i>Traveled – traveling to some regions of the world may require you to wait or <br>go through some additional testing or wait period before donating<br>
+</div>
+<div class="web1">
+    <img src="https://t3.ftcdn.net/jpg/02/07/62/64/240_F_207626442_C1gsmQj06aqxhc7BJFrlBjyKt06KJyhM.jpg">
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="we">
+    <div class="we1">
+        <h2>Why give blood?</h2>
+            <p>For the greater good of humankind, blood donations are so important. Blood donors <br> a part of this essential community service. Also, if you don’t know your blood type<br>, when you go to give blood, your blood will be tested for free to determine its type<br> – valuable information for anyone to know regarding their health.</p>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+    
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+   
+    
+
+
+    <footer>
+        <div class="footer">
+        <div class="d1">
+        <i class="fa-solid fa-droplet"></i><br> 
+        <h2>Blood World</h2>
+        <p>We are here to save the <br>life of thousands people <br>By donating blood, all <br>can make a significant in<br> their community</p>
+        </div>
+        <div class="d2">
+        <h2>Quick Links</h2>
+          <a href="Home.html">Home</a>
+          <a href="about1.html">AboutUs</a>
+          <a href="events.html">Events</a>
+         
+        </div>
+        <div class="d3">
+        <h2>Information</h2>
+        <a href="donate.html">Donate Blood</a>
+        <a href="need.html">Need Blood</a>
+        </div>
+        <div class="d4">
+        <h2>Contact info</h2>
+        <p><i class="fa-solid fa-phone"></i>+9988776655</p>
+        <p><i class="fa-solid fa-envelope"></i>bloodworld123.gmail.com</p>
+        <p><i class="fa-solid fa-location-dot"></i>54-3anywhereinIndia,Andhra pradesh</p>
+        </div>
+        
+        </div>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <div class="div1">
+        <div class="div11">
+        <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="div12">
+        <p>Copyright &copy;2025 Donors,All rights reserved,present by BloodworldIndia</p>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
