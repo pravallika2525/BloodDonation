@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+           
+        }
+        .nav{
+            
+            padding-top: 25px;
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            font-size: 20px;
+            background-color: rgb(255, 21, 21);
+            color: white;
+        }
+        .navl{
+            padding-left: 250px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        para{
+            padding-left: 25px;
+        }
+        .navr{
+            padding-right: 250px;
+        }
+        .navr i{
+            
+            width: 25px;
+            height: 25px;
+            margin-left: 5px;
+            padding-left: 7px;
+            padding-top: 7px;
+            border: solid 2px rgb(243, 242, 242);
+            border-radius: 20px;
+            color: white;
+            background-color: rgb(255, 0, 0);
+            transition: all 1s ease-in;
+            scale: 0.9;
+        }
+.navr i:hover{
+    color: black;
+    background-color: rgb(243, 245, 247);
+    transform: scale(0.9);
+}
+.left{margin-left: 200px;
+            display: flex;
+            flex-direction: row;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color:white;
+        }
+        a{ 
+            text-decoration: none;
+            color:rgb(20, 20, 20);
+            font-weight: bolder;
+            font-size: 20px;
+            
+        }
+       
+        .right a{
+           margin-right: 55px;
+        }
+        .right a:hover{
+            color: rgb(255, 25, 25);
+            
+        }
+        .right{
+            padding-top: 30px;
+        }
+        .lefrig
+            {margin-right: 200px;
+            color: white;
+            margin-top: 18px;
+            height: 30px;
+            border: solid 2px rgb(255, 255, 255);
+            padding-left: 9px;
+            padding-right: 9px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color: rgb(255, 20, 20);
+            border-radius: 5px;
+        }
+        .lefrig a{
+            color: rgb(253, 250, 250);
+            font-size: 20px;
+        }
+        .img{
+            
+            width: 90px;
+            height: 90px;
+        }
+        .p{
+    padding-top: 29px;
+    padding-left: 3px;
+            font-weight: bolder;
+            color: rgb(255, 25, 25);
+           font-size: 22px;
+        }
+       .right  .a{
+        color:rgb(255, 12, 12);
+        border-bottom: solid 3px  rgb(255, 25, 25);;
+       }
+       .ab{
+        display: flex;
+        flex-direction: row;
+       }
+       .ab2 img{
+        width: 500px;
+        height: 500px;
+       }
+       .ab{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        margin-bottom: 60px;
+
+       }
+       .ab1 h2{
+        color: rgb(255, 30, 30);
+       }
+       .ab1 h1{
+        font-size: 70px;
+        padding-bottom: 25px;
+       }
+     .ds{
+        
+font-weight: bolder;
+font-size: 25px;
+line-height: 35px;
+    }
+    .ab1 p{
+        padding-top: 30px;
+        line-height: 26px;
+    }
+    .pp{
+    margin-top: 30px;
+    padding: 10px 20px 10px 20px;
+        font-size: 16px;
+        border: solid 2px rgb(255, 12, 12);
+background-color:rgb(255, 12, 12);
+color: white;
+border-radius: 50px;
+font-weight: bold;
+
+
+}
+.pp:hover{
+    color:rgb(255, 12, 12);
+background-color: white;
+}
+.he1{
+    background-image: url("https://blood-center.sites.motocms.com/res/671f4ec30e234dbaa78e9a5f/6720de7a6457229140c3bab8?nowebp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 200px;
+    padding-top: 160px;
+    padding-bottom: 110px;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+}
+h1{
+    font-size: 70px;
+    padding-bottom: 25px;
+}
+.he1 h2{
+    color: rgb(255, 30, 30);
+}
+.he1 p{
+    padding-top: 40px;
+    line-height: 28px;
+}
+.ppp{
+    margin-top: 30px;
+    padding: 12px 35px 12px 35px;
+        font-size: 16px;
+        border: solid 2px rgb(255, 12, 12);
+background-color:rgb(255, 12, 12);
+color: white;
+font-weight: bold;
+
+}
+.ppp:hover{
+    color:rgb(255, 12, 12);
+background-color: white;
+}
+.ab1{
+    animation: dp linear;
+    animation-timeline:view();
+            animation-range: entry 0 cover 30%;
+            
+           
+
+
+        }
+         
+        @keyframes dp{
+            from{
+                transform: scale(0);opacity: 0;
+            }
+            to{ 
+   
+                transform:scale(1);opacity: 1;
+            }
+
+        }
+        .ab2 img{
+            border: solid 2px rgb(255, 17, 17);
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+  }
+.ab2{
+
+    animation: dp linear;
+    animation-timeline:view();
+            animation-range: entry 0 cover 30%;
+            
+         
+
+
+
+        }
+         
+        @keyframes dp{
+            from{
+                transform: scale(0);opacity: 0;
+            }
+            to{ 
+   
+                transform:scale(1);opacity: 1;
+            }
+
+  
+  }
+  .ss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    animation: dp linear;
+    animation-timeline:view();
+            animation-range: entry 0 cover 30%;
+            
+         
+
+
+
+        }
+         
+        @keyframes dp{
+            from{
+                transform: scale(0);opacity: 0;
+            }
+            to{ 
+   
+                transform:scale(1);opacity: 1;
+            }
+
+  
+  }
+  .sr{
+    padding-top: 60px;
+    padding-right: 200px;
+  }
+  .sr p{
+    line-height: 22px;
+    
+  }
+  .sl h2{
+    color: rgb(255, 30, 30);
+  }
+  .sl{
+    padding-left: 200px;
+  }
+  .op{
+    font-size: 17px;
+    padding-left: 3px;
+  }
+  .pic1{
+    
+    width: 350px;
+    height: 520px;
+   background-color: white;
+    margin-right: 50px;
+    border: solid 2px rgb(214, 205, 205);
+    margin-left: 50px;
+    transition: all ease 2s;
+    border-radius: 5px;
+  
+    animation: dp linear;
+    animation-timeline:view();
+            animation-range: entry 0 cover 30%;
+            
+         
+
+
+
+        }
+         
+        @keyframes dp{
+            from{
+                transform: scale(0);opacity: 0;
+            }
+            to{ 
+   
+                transform:scale(1);opacity: 1;
+            }
+
+  
+  }
+  .pic1:hover{
+    transform: scale(1.1);
+  }
+  .pi{
+    width: 350px;
+    height: 350px;
+  }
+  .p1{
+    width: 500px;
+    height: 550px;
+    margin-right: 70px;
+    border-radius: 5px;
+  }
+  .main1{
+  margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+  }
+  .pic1 h2{
+    color: rgb(255, 30, 30);
+    padding-bottom: 20px;
+    padding-top: 10px;
+text-align: center;
+  }
+  .services{
+    background-color: rgb(243, 245, 247);
+    padding-top: 40px;
+    padding-bottom: 70px;
+  }
+
+  .footer{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .d1 p{
+    padding-top: 15px;
+    line-height: 20px;
+  }
+   .d2 a{
+    display: flex;
+    flex-direction: column;
+    font-weight:lighter;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+   }
+   .d3 a{
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+   }
+   .d4 p{
+    line-height: 30px;
+   }
+   .footer h2{
+    color: rgb(253, 23, 23);
+   }
+   .footer i{
+    color: rgb(253, 23, 23);
+    padding-right: 10px;
+   }
+   .d1 i{
+    font-size: 30px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+   }
+   .div1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+   
+   }
+   .div12{
+    padding-right: 300px;
+   }
+   .div11{
+    padding-left: 300px;
+   }
+   .div11 i{
+    padding-left: 15px;
+    font-size: 20px;
+   }
+   footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+   }
+   .div11 i{
+            
+            width: 25px;
+            height: 25px;
+            margin-left: 5px;
+            padding-left: 7px;
+            padding-top: 7px;
+            border: solid 2px rgb(255, 22, 22);
+            border-radius: 20px;
+            color: white;
+            background-color: rgb(255, 0, 0);
+            transition: all 1s ease-in;
+            scale: 0.9;
+        }
+.div11 i:hover{
+    color: black;
+    background-color: rgb(243, 245, 247);
+    transform: scale(0.9);
+}
+.he1{
+    color: white;
+}
+ .he1 p{
+    font-size: 19px;
+ }
+ .main1{
+    padding-left: 40px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ .lefrig i{
+  font-size: 30px;
+  border-radius: 10px;
+  color: red;
+ 
+}
+.lefrig{
+  background-color: white;
+}
+
+
+
+
+
+ </style>
+</head>
+<body>
+    <div class="home">
+        <div class="nav">
+            <div class="navl">
+               <para><i class="fa-solid fa-phone"></i></para>  
+               <para>Tel: +440-550-660 </para>
+               <para>|</para> 
+               <para><i class="fa-solid fa-envelope"></i>   </para>
+               <para>bloodworld123@gmail.com</para>
+               <para>|</para> 
+               <para>24/7 Available<br>Sunday-Saturday</para>
+            </div>
+            <div class="navr">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <img class="img" src="https://media.istockphoto.com/id/1307616924/vector/switzerland-flag-in-heart-country-of-europe-isolated-vector-icon-in-flat.jpg?s=612x612&w=0&k=20&c=lb5IUkD6Uy1I8DvrLYSGqIljsZBmeqqzEwvDcRr9WoU=">
+                
+                <p class="p">BLOOD WORLD</p>
+            </div>
+        
+        <div class="right">
+            <a href="home.html" >Home</a>
+            <a href="about1.html" class="a">AboutUs</a>
+            <a href="events.html">Events</a>
+            <a href="donate.html">Donate Blood</a>
+            <a href="need.html">Need Blood</a>
+          
+        </div>
+           
+                <div class="lefrig">
+                    <i class="fa-solid fa-circle-user"></i>
+                </div>
+            </div>
+            <div class="he1">
+              <h2> ━━━ Make an Impact</h>
+              <h1>Who We Are</h1>
+              <span class="ds">We are a dedicated nonprofit blood donation center<br>commited to saving lives and strengthening communities</span>
+              <p>We believe in the power of community and the life-saving impact of blood donation.<br>Our mission is to ensure Blood donation is the process of saving lifes of huge people <br>process of voluntarily giving blood to help patients in need. Donated blood is used <br>to transfuse patients who require blood due to surgery, injury, or illness.</p>
+              <a href="need.html"><button class="ppp">Get Blood</button></a>
+              </div>
+            <section>
+                <div class="ab">
+                    <div class="ab2">
+                        <img src="https://blood-center.sites.motocms.com/res/671f4ec30e234dbaa78e9a5f/6720cabd816c66e32dfd887a_optimized_1396_c1396x930-0x0.webp">
+                    </div>
+                    <div class="ab1">
+                <h2>━━━━━ Our Mission And History</h2>
+                <h1>Our Commitments to 
+                    <br>Health & Community</h1>
+                    <span class="ds">Discover the vital role of Blood Center as a leading<br> nonprofit organization dedicated to blood donation.</span>
+                  
+                    <p>Blood Center is public donation center with blood donation members in the changing  the<br>health care system. Founded in 1978, Blood Center is one of the nation’s oldest&largest <br>nonprofit transfusion medicine organizations. We provide a blood and volunteer services <br>across the US.With our national footprint, deep community roots and specialized services <br>we are the thread that connects people and resources together progress transfusion medicine.</p>
+                    <a href="donate.html"><button class="ppp">Donate Blood</button></a>
+                </div>
+               
+                </div>
+                </section>
+                <section id="services">
+                <div class="services" >
+                    <div class="ss">
+                    <div class="sl">
+                    <h2>━━━━━ Our services</h2>
+                    <h1>What we are<br> Provide To You</h1>
+                    </div>
+                    <div class="sr">
+                        <p>Blood donation is a voluntary process where individuals donate their blood to <br>help patients in need. Blood donors often receive free blood tests, including tests <br>for blood type, hemoglobin, and more.Blood donors help patients in need.Whole <br> blood donation involves donating all components of blood, including red and white <br>blood cells, platelets, and plasma. This type of donation is typically used for healt<br> patients undergoing surgery, trauma, or experiencing bleeding disorders.
+                        </p>
+                    
+                    </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                 <div class="ser">
+                    <div class="main1">
+                        <div class="pic1">
+                            <img class="pi" src="https://www.swaconhospital.com/wp-content/uploads/2019/09/34-5-reasons-why-you-need-a-regular-checkup-feat-1080x600.jpg">
+                            <h2>Health Checkup</h2>
+                            <p class="op"> We are here to help you for health checkup for the donators before donating the blood.Before donation of blood health checkup is important,if your health condition , you can donte blood.</p>
+                            </div>
+                        <div class="pic1">
+                      
+                            
+                           <img class="pi" src="https://blood-center.sites.motocms.com/res/671f4ec30e234dbaa78e9a5f/6720ce9e8ae5814ebe8e7535_optimized_920_c920x1411-0x0.webp">
+                           <h2>Blood Test</h2>
+                         
+                           <p class="op" >We are here to provide the blood test checkup also.The blood test help us to know about the type of blood and the purity or impurity of the blood.Blood test is Cost effective.</p>
+                       </div>
+                           <div class="pic1">
+                           <img class="pi" src="https://media.istockphoto.com/id/987110992/photo/red-blood-bag-in-hand-scientist-over-white-background-in-laboratory.jpg?s=612x612&w=0&k=20&c=8nN7F6JEHqL0LmTp8lsvzcA4Ekrvj8djbwpR81Sh9kc=">
+                            <h2>Blood Storage</h2>
+                            <p class="op" >We are here to supply the blood for the patients who need blood for their emergency.Contact with us when you need blood to save lifes of people. The blood is stored in proper way.</p>
+                            </div>
+                        <div class="pic1">
+                            <img  class="pi" src="https://images.healthshots.com/healthshots/en/uploads/2022/06/14090406/blood-donor.jpg">
+                            <h2>Blood Donation</h2>
+                            <p class="op" >Donate blood and save lives ,donate blood for twice in a year.Donating blood is more helpfull for us and patients.Donate blood Save Lives.Donation of blood is good for health. </p>
+                        </div>
+                </div>
+                 </div> 
+                 <br>
+<br>
+<br>  
+                </div>
+</section>
+
+                <footer>
+                    <div class="footer">
+                    <div class="d1">
+                    <i class="fa-solid fa-droplet"></i><br> 
+                    <h2>Blood World</h2>
+                    <p>We are here to save the <br>life of thousands people <br>By donating blood, all <br>can make a significant in<br> their community</p>
+                    </div>
+                    <div class="d2">
+                    <h2>Quick Links</h2>
+                      <a href="Home.html">Home</a>
+                      <a href="about1.html">AboutUs</a>
+                      <a href="events.html">Events</a>
+                     
+                    </div>
+                    <div class="d3">
+                    <h2>Information</h2>
+                    <a href="donate.html">Donate Blood</a>
+                    <a href="need.html">Need Blood</a>
+                    </div>
+                    <div class="d4">
+                    <h2>Contact info</h2>
+                    <p><i class="fa-solid fa-phone"></i>+9988776655</p>
+                    <p><i class="fa-solid fa-envelope"></i>bloodworld123.gmail.com</p>
+                    <p><i class="fa-solid fa-location-dot"></i>54-3anywhereinIndia,Andhra pradesh</p>
+                    </div>
+                    
+                    </div>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                    <div class="div1">
+                    <div class="div11">
+                    <i class="fa-brands fa-instagram"></i>
+                          <i class="fa-brands fa-x-twitter"></i>
+                          <i class="fa-brands fa-linkedin"></i>
+                          <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="div12">
+                    <p>Copyright &copy;2025 Donors,All rights reserved,present by BloodworldIndia</p>
+                    </div>
+                    </div>
+                </footer>
+</body>
+</html>
