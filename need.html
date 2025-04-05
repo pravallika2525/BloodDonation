@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+           
+        }
+        .nav{
+           
+            padding-top: 25px;
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            font-size: 20px;
+            background-color: rgb(255, 21, 21);
+            color: white;
+        }
+        .navl{
+            padding-left: 250px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        para{
+            padding-left: 25px;
+        }
+        .navr{
+            padding-right: 250px;
+        }
+        .navr i{
+            
+            width: 25px;
+            height: 25px;
+            margin-left: 5px;
+            padding-left: 7px;
+            padding-top: 7px;
+            border: solid 2px rgb(243, 242, 242);
+            border-radius: 20px;
+            color: white;
+            background-color: rgb(255, 0, 0);
+            transition: all 1s ease-in;
+            scale: 0.9;
+        }
+.navr i:hover{
+    color: black;
+    background-color: rgb(243, 245, 247);
+    transform: scale(0.9);
+}
+.left{margin-left: 200px;
+            display: flex;
+            flex-direction: row;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color:white;
+        }
+        a{ 
+            text-decoration: none;
+            color:rgb(20, 20, 20);
+            font-weight: bolder;
+            font-size: 20px;
+            
+        }
+       
+        .right a{
+           margin-right: 55px;
+        }
+        .right a:hover{
+            color: rgb(255, 25, 25);
+            
+        }
+        .right{
+            padding-top: 30px;
+        }
+        .lefrig
+            {margin-right: 200px;
+            color: white;
+            margin-top: 18px;
+            height: 30px;
+            border: solid 2px rgb(255, 255, 255);
+            padding-left: 9px;
+            padding-right: 9px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color: rgb(255, 20, 20);
+            border-radius: 5px;
+        }
+        .lefrig a{
+            color: rgb(253, 250, 250);
+            font-size: 20px;
+        }
+        .img{
+            
+            width: 90px;
+            height: 90px;
+        }
+        .p{
+    padding-top: 29px;
+    padding-left: 3px;
+            font-weight: bolder;
+            color: rgb(255, 25, 25);
+           font-size: 22px;
+        }
+       .right  .a{
+        color:rgb(255, 12, 12);
+        border-bottom: solid 3px  rgb(255, 25, 25);;
+       }
+       .footer{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .d1 p{
+    padding-top: 15px;
+    line-height: 20px;
+  }
+   .d2 a{
+    display: flex;
+    flex-direction: column;
+    font-weight:lighter;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+   }
+   .d3 a{
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+   }
+   .d4 p{
+    line-height: 30px;
+   }
+   .footer h2{
+    color: rgb(253, 23, 23);
+   }
+   .footer i{
+    color: rgb(253, 23, 23);
+    padding-right: 10px;
+   }
+   .d1 i{
+    font-size: 30px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+   }
+   .div1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+   
+   }
+   .div12{
+    padding-right: 300px;
+   }
+   .div11{
+    padding-left: 300px;
+   }
+   .div11 i{
+    padding-left: 15px;
+    font-size: 20px;
+   }
+   footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+   }
+   .div11 i{
+            
+            width: 25px;
+            height: 25px;
+            margin-left: 5px;
+            padding-left: 7px;
+            padding-top: 7px;
+            border: solid 2px rgb(255, 22, 22);
+            border-radius: 20px;
+            color: white;
+            background-color: rgb(255, 0, 0);
+            transition: all 1s ease-in;
+            scale: 0.9;
+        }
+.div11 i:hover{
+    color: black;
+    background-color: rgb(243, 245, 247);
+    transform: scale(0.9);
+}
+.sub{
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    font-size: 19px;
+    color: white;
+    margin-left: 300px;
+    margin-top: 60px;
+    opacity: 0.8;
+   }
+   .sub:hover{
+    opacity: calc(1);
+   }
+
+
+   sup{
+    color: red;
+    font-size: 20px;
+}
+input{
+    padding-left: 10px;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid 0.5px rgb(141, 141, 141);
+}
+.row1{
+    display:flex;
+    flex-direction: row;
+
+}
+.ro1{
+    margin-left: 30px;
+}
+.ro2{
+    margin-left: 100px;
+}
+  select{
+    padding-left: 10px;
+    width: 315px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid 0.5px rgb(141, 141, 141);
+  }
+  .don{
+   
+   width: 800px;
+   height: 760px;
+   border-radius: 10px;
+   
+   
+ backdrop-filter: blur(20px);
+ 
+  
+
+}
+.donn{
+   background-image: url("https://www.lifeshare.org/wp-content/uploads/2023/12/whole-blood-donation-lifeshare-scaled.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+}
+.don h2{
+   font-size: 40px;
+   text-align: center;
+   padding-top: 70px;
+   padding-bottom: 50px;
+   
+}
+    .dos img{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 760px;
+        height: 760px;
+    }
+    .dop {
+        width: 1550px;
+        height: 760px;
+        box-shadow: 2px 2px 5px black;
+        border: solid 2px rgb(126, 126, 126);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 180px;
+    }
+
+
+    .lefrig i{
+  font-size: 30px;
+  border-radius: 10px;
+  color: red;
+ 
+}
+.lefrig{
+  background-color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="home">
+        <div class="nav">
+            <div class="navl">
+               <para><i class="fa-solid fa-phone"></i></para>  
+               <para>Tel: +440-550-660 </para>
+               <para>|</para> 
+               <para><i class="fa-solid fa-envelope"></i>   </para>
+               <para>bloodworld123@gmail.com</para>
+               <para>|</para> 
+               <para>24/7 Available<br>Sunday-Saturday</para>
+            </div>
+            <div class="navr">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <img class="img" src="https://media.istockphoto.com/id/1307616924/vector/switzerland-flag-in-heart-country-of-europe-isolated-vector-icon-in-flat.jpg?s=612x612&w=0&k=20&c=lb5IUkD6Uy1I8DvrLYSGqIljsZBmeqqzEwvDcRr9WoU=">
+                
+                <p class="p">BLOOD WORLD</p>
+            </div>
+        
+        <div class="right">
+            <a href="home.html" >Home</a>
+            <a href="about1.html" >AboutUs</a>
+            <a href="events.html" >Events</a>
+            <a href="donate.html">Donate Blood</a>
+            <a href="need.html" class="a">Need Blood</a>
+          
+        </div>
+           
+        <div class="lefrig">
+            <i class="fa-solid fa-circle-user"></i>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+<div class="dop">
+  <div class="dos">
+    <img src="https://media.istockphoto.com/id/1171248030/photo/donating-blood-for-transfusions-blood-donation-and-blood-donor-hemolytic-transfusion-bank.jpg?s=612x612&w=0&k=20&c=I5KY-Uvkjqmf-Vw_aplTAKgqvRyOqsQl82CsT2XtKnw=">
+    </div>
+
+
+
+
+    <div class="don">
+        <h2>Request Blood</h2>
+        
+       
+    
+    
+        <div class="row1">
+            <div class="ro1">
+                patient Name:<sup>*</sup><br><br><br>
+                <input type="text" name="patientName" placeholder="patient Name"> 
+            </div>
+    
+            <div class="ro2">
+                Age<sup>*</sup><br><br><br>
+                <input type="number" name="age" placeholder="Patient age"> 
+            </div>
+        </div>
+    
+    
+        
+    
+    
+       
+    
+    
+       
+        
+    
+    
+        <div class="row1">
+            <div class="ro1">
+                Mobile:<sup>*</sup><br><br><br>
+                <input type="text" name="mobile" placeholder="Your Mobile "> 
+            </div>
+    
+            <div class="ro2">
+                Email:<sup>*</sup><br><br><br>
+                <input type="email" name="email" placeholder="your Email"> 
+            </div>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <div class="row1">
+            <div class="ro1">
+            <label for="state">State:<sup>*</sup></label><br><br><br>
+            <select id="state" name="state" onchange="updateDistricts()" >
+                <option value="">Select State</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                
+                <!-- Add more states as needed -->
+            </select>
+    </div>
+    <div class="ro2">
+            <label for="district">District:<sup>*</sup></label><br><br><br>
+            <select id="district" name="district">
+                <option value="">Select District</option>
+                <!-- District options will be populated based on selected state -->
+            </select>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+    
+    <div class="row1">
+        <div class="ro1">
+            Address:<sup>*</sup><br><br><br>
+            <input type="text" name="address" placeholder="Address"> 
+        </div>
+    
+        <div class="ro2">
+            Message:<sup>*</sup><br><br><br>
+            <textarea rows="5" cols="40" ></textarea> 
+        </div>
+    </div>
+    
+    
+   <a href="react.html"> <input class="sub" type="submit" value="Get Blood"></a>
+    <div id="success-message" style="display: none;">
+        <p>Successfully registered! We will mail you soon.</p>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+    </div>
+    <br>
+    
+    
+    
+    
+    
+    
+      
+        
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer">
+        <div class="d1">
+        <i class="fa-solid fa-droplet"></i><br> 
+        <h2>Blood World</h2>
+        <p>We are here to save the <br>life of thousands people <br>By donating blood, all <br>can make a significant in<br> their community</p>
+        </div>
+        <div class="d2">
+        <h2>Quick Links</h2>
+          <a href="Home.html">Home</a>
+          <a href="about1.html">AboutUs</a>
+          <a href="events.html">Events</a>
+         
+        </div>
+        <div class="d3">
+        <h2>Information</h2>
+        <a href="donate.html">Donate Blood</a>
+        <a href="need.html">Need Blood</a>
+        </div>
+        <div class="d4">
+        <h2>Contact info</h2>
+        <p><i class="fa-solid fa-phone"></i>+9988776655</p>
+        <p><i class="fa-solid fa-envelope"></i>bloodworld123.gmail.com</p>
+        <p><i class="fa-solid fa-location-dot"></i>54-3anywhereinIndia,Andhra pradesh</p>
+        </div>
+        
+        </div>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <div class="div1">
+        <div class="div11">
+        <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="div12">
+        <p>Copyright &copy;2025 Donors,All rights reserved,present by BloodworldIndia</p>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
