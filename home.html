@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+      
+      * {
+            margin: 0%;
+            padding: 0%;
+           
+        }
+     
+        .nav{
+            
+            padding-top: 25px;
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            font-size: 20px;
+            background-color: rgb(255, 21, 21);
+            color: white;
+        }
+        .navl{
+            padding-left: 250px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        para{
+            padding-left: 25px;
+        }
+        .navr{
+            padding-right: 250px;
+        }
+        .navr i{
+            
+            width: 25px;
+            height: 25px;
+            margin-left: 5px;
+            padding-left: 7px;
+            padding-top: 7px;
+            border: solid 2px rgb(243, 242, 242);
+            border-radius: 20px;
+            color: white;
+            background-color: rgb(255, 0, 0);
+            transition: all 1s ease-in;
+            scale: 0.9;
+        }
+.navr i:hover{
+    color: black;
+    background-color: rgb(243, 245, 247);
+    transform: scale(0.9);
+}
+.left{margin-left: 200px;
+            display: flex;
+            flex-direction: row;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color:white;
+        }
+        a{ 
+            text-decoration: none;
+            color:rgb(20, 20, 20);
+            font-weight: bolder;
+            font-size: 20px;
+            
+        }
+       
+        .right a{
+           margin-right: 55px;
+        }
+        .right a:hover{
+            color: rgb(255, 25, 25);
+            
+        }
+        .right{
+            padding-top: 30px;
+        }
+        .lefrig
+            {margin-right: 200px;
+            color: white;
+            margin-top: 18px;
+            height: 30px;
+            border: solid 2px rgb(255, 255, 255);
+            padding-left: 9px;
+            padding-right: 9px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color: rgb(255, 20, 20);
+            border-radius: 5px;
+        }
+        .lefrig a{
+            color: rgb(253, 250, 250);
+            font-size: 20px;
+        }
+        .img{
+            
+            width: 90px;
+            height: 90px;
+        }
+        .p{
+    padding-top: 29px;
+    padding-left: 3px;
+            font-weight: bolder;
+            color: rgb(255, 25, 25);
+           font-size: 22px;
+        }
+       .right  .a{
+        color:rgb(255, 12, 12);
+        border-bottom: solid 3px  rgb(255, 25, 25);
+       }
+       .div{
+        display: flex;
+        flex-direction: row;
+       }
+       .k{
+padding: 15px 30px 15px 30px;
+font-size: 16px;
+border: solid 2px rgb(255, 12, 12);
+background-color: rgb(255, 12, 12);
+color: white;
+       }
+       .k:hover{
+        border: solid 2px rgb(255, 12, 12);
+background-color:transparent;
+color: white
+       }
+       .s{
+        margin-left: 30px;
+        padding: 15px 30px 15px 30px;
+        font-size: 16px;
+        border: solid 2px rgb(255, 12, 12);
+background-color: transparent;
+color: white;
+       }
+       .s:hover{
+        border: solid 2px rgb(255, 12, 12);
+background-color: rgb(255, 12, 12);
+       }
+       .main1 h1{
+        font-size: 75px;
+        padding-bottom: 25px;
+       }
+       .main1 p{
+        padding-bottom: 30px;
+        line-height: 25px;
+       }
+       .main1{
+        padding-left: 300px;
+        padding-top: 245px;
+    padding-bottom: 200px;
+        opacity: 0.5 black;
+        background-image: url("https://blood-center.sites.motocms.com/res/671f4ec30e234dbaa78e9a5f/671f635c4e236c52e9d42c43?nowebp");
+        background-color: rgba(0,0,0,0.3);
+        background-blend-mode: multiply;
+        color: white;
+       background-repeat: no-repeat;
+       background-size: cover;
+       }
+       .dp1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+       }
+.pp{
+    margin-top: 30px;
+    padding: 10px 20px 10px 20px;
+        font-size: 16px;
+        border: solid 2px rgb(255, 12, 12);
+background-color:rgb(255, 12, 12);
+color: white;
+border-radius: 50px;
+font-weight: bold;
+
+}
+.pp:hover{
+    color:rgb(255, 12, 12);
+background-color: white;
+}
+.dp1 h1{
+font-size: 70px;
+padding-left: 300px;
+}
+.dp2 p{
+    
+font-size: 20px;
+line-height: 30px;
+}
+.dp2{
+    margin-left: -50px;
+    margin-right: 200px;
+}
+.dp0{
+    color: rgb(255, 12, 12);
+    font-weight: bolder;
+    font-size: 35px;
+    padding-left: 400px;
+    padding-top: 50px;
+}
+.dp1{
+    margin-top: 40px;
+}
+.dp{
+    padding-top: 50px;
+    animation: dp linear;
+            animation-timeline:view();
+            animation-range: entry 0 cover 30%;
+            
+            width: 100%;
+height:100%;
+
+        }
+         
+        @keyframes dp{
+            from{
+                transform: scale(0);opacity: 0;
+            }
+            to{
+                transform:scale(1);opacity: 1;
+            }
+  
+  
+}
+
+
+.process{
+  margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    
+ justify-content: space-evenly;
+    animation: dp linear;
+            animation-timeline:view();
+            animation-range: entry 0 cover 30%;
+            margin-bottom: 60px;
+            width: 100%;
+height:100%;
+
+
+        }
+         
+        @keyframes dp{
+            from{
+                transform: scale(0);
+            }
+            to{
+                transform:scale(1);
+            }
+}
+  .pic1{
+    
+    height: 500px;
+    width: 350px;
+   background-color: rgb(255, 255, 255);
+   border-radius: 10px;
+    border: solid 0.1px rgb(206, 202, 202);
+    margin-left: 55px;
+    transition: all ease 2s;
+    margin-bottom: 30px;
+  }
+  .pic1:hover{
+    transform: scale(1.1);
+  }
+  .pi{
+    width: 350px;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+  }
+  
+  .pic1 h2{
+    
+font-weight: bold;
+    text-align: center;
+    padding-bottom: 5px;
+    color:rgb(255, 17, 17);
+  }
+  .oo{
+    font-size: 23px;
+    padding-left: 22px;
+    padding-top: 16px;
+    font-weight: 600;
+    line-height: 35px;
+  }
+  .pic1 i{
+    padding-top: 15px;
+    font-size: 35px;
+    padding-left: 160px;
+    color: rgb(255, 20, 20);
+    animation: im 2s infinite;
+        }        
+        @keyframes im{
+          from{
+            transform:translateY(5px);
+           
+          }
+          to{
+            transform: rotateY(-10px);
+            
+          }
+        }  
+  .os{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .osleft{
+    display: flex;
+    flex-direction: column;
+  }
+  .top{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(248, 236, 236);
+    padding-left: 80px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  .botm{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .osright{
+    display: flex;
+    flex-direction: column;
+  }
+  .osrt{
+    display: flex;
+    flex-direction: row;
+  }
+  .l{
+    display: flex;
+    flex-direction:column;
+    padding-left: 25px;
+    padding-right: 25px;
+  }.lr{
+font-size: 50px;
+font-weight: bolder;
+  }
+  .lr1{
+font-size: 16px;
+color:rgb(255, 20, 20);
+font-weight: bolder;
+  }
+  .btml{
+width: 270px;
+height: 340px;
+border: solid 2px rgb(255, 20, 20);
+background-color: rgb(255, 30, 30);
+border-radius: 20px;
+padding-left: 26px;
+padding-right: 20px;
+color: white;
+  }
+  .btml h2{
+    padding-top: 10px;
+    border-bottom: 0.2px rgb(243, 239, 239) solid;
+    font-weight: bolder;
+    padding-bottom: 15px;
+    padding-left: 50px;
+  }
+  .btml p{
+    padding-top: 17px;
+    line-height: 27px;
+  }
+  .btmr img{
+    margin-left: 20px;
+    width: 330px;
+height: 340px;
+border-radius: 20px;
+border: solid 2px white;
+
+  }
+  .osl h1{
+    font-size: 50px;
+  }
+  .osl p{
+    padding-top: 10px;
+    line-height: 25px;
+    font-size: 19px;
+    padding-bottom: 20px;
+  }
+  .osl h2{
+    color: rgb(255, 20, 20);
+    font-weight: bolder;
+    padding-bottom: 6px;
+  }
+  .osr1 h2{
+    padding-top: 5px;
+    padding-left: 20px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    
+    margin-top: 20px;
+   
+  }
+  .osr1 p{
+    padding-top: 9px;
+    line-height: 27px;
+    padding-left: 17px;
+    
+  }
+  .osr1 i{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .osr1 .ph{ 
+padding-left: 50px;
+padding-bottom: 7px;
+  }
+  .osr1{
+    border: solid 2px rgb(212, 212, 212);
+    padding-right: 30px;
+    padding-left:30px;
+    border-radius: 20px;
+    background-color: rgb(255, 28, 28);
+    color: white;
+  }
+  .osr2 i{
+    font-size: 24px;
+    padding-right: 10px;
+    color: rgb(255, 27, 27);
+  }
+  .osr2{
+    padding-top: 30px;
+    font-weight: bolder;
+    line-height: 40px;
+    padding-left: 25px;
+    border: solid 2px rgb(224, 224, 224);
+    border-radius: 20px;
+    padding-right: 25px;
+    margin-left: 20px;
+  }
+  .osleft{
+    padding-left: 230px;
+    padding-right: 150px;
+
+    animation: dp linear;
+            animation-timeline:view();
+            animation-range: entry 0 cover 30%;
+            margin-bottom: 60px;
+            width: 100%;
+height:100%;
+
+
+        }
+         
+        @keyframes dp{
+            from{
+                transform: scale(0);opacity: 0;
+            }
+            to{
+                transform:scale(1);opacity: 1;
+            }
+}
+  .osright{
+    padding-right: 200px;
+    animation: dp linear;
+    animation-timeline:view();
+            animation-range: entry 0 cover 30%;
+            margin-bottom: 60px;
+            width: 100%;
+height:100%;
+
+
+
+        }
+         
+        @keyframes dp{
+            from{
+                transform: scale(0);opacity: 0;
+            }
+            to{ 
+   
+                transform:scale(1);opacity: 1;
+            }
+}
+  .os{
+
+    margin-top: 110px;
+    padding-top: 70px;
+    background-color: rgb(238, 236, 236);
+  }
+  .yrt h2{
+    color: rgb(255, 20, 20);
+    font-weight: bolder;
+    padding-bottom: 6px;
+  }
+  .yrt h1{
+    font-size: 70px;
+  }
+  .yrt p{
+    padding-top: 9px;
+    line-height: 27px;
+    
+   
+  }
+  .yb1 i{
+    font-size: 40px;
+  }
+  .yl img{
+  
+    margin-left: 20px;
+    width: 350px;
+height: 310px;
+border-radius: 20px;
+border: solid 2px rgb(255, 28, 28);
+
+  }
+  .ydonate{
+   
+   padding-top: 50px;
+    margin-top: 30px;
+    padding-bottom: 85px;
+    
+
+animation: dp linear;
+    animation-timeline:view();
+            animation-range: entry 0 cover 30%;
+            
+            width: 100%;
+height:100%;
+display: flex;
+    flex-direction:row;
+justify-content:space-around;
+
+
+
+        }
+         
+        @keyframes dp{
+            from{
+                transform: scale(0);opacity: 0;
+            }
+            to{ 
+   
+                transform:scale(1);opacity: 1;
+            }
+
+  
+  }
+  .yyd{
+    background-color: rgb(238, 236, 236);
+    
+  }
+  .yrb{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+  }
+  .yb1 i{
+    color: rgb(253, 23, 23);
+    padding-left: 50px;
+  }
+  .yb1 p{
+    font-weight: lighter;
+    line-height: 23px;
+  }
+  .im{
+    transform: translate(70px,40px);
+  }
+  
+  .footer{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .d1 p{
+    padding-top: 15px;
+    line-height: 20px;
+  }
+   .d2 a{
+    display: flex;
+    flex-direction: column;
+    font-weight:lighter;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+   }
+   .d3 a{
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+   }
+   .d4 p{
+    line-height: 30px;
+   }
+   .footer h2{
+    color: rgb(253, 23, 23);
+   }
+   .footer i{
+    color: rgb(253, 23, 23);
+    padding-right: 10px;
+   }
+   .d1 i{
+    font-size: 30px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+   }
+   .div1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+   
+   }
+   .div12{
+    padding-right: 300px;
+   }
+   .div11{
+    padding-left: 300px;
+   }
+   .div11 i{
+    padding-left: 15px;
+    font-size: 20px;
+   }
+   footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+   }
+
+
+   .div11 i{
+            
+            width: 25px;
+            height: 25px;
+            margin-left: 5px;
+            padding-left: 7px;
+            padding-top: 7px;
+            border: solid 2px rgb(255, 24, 24);
+            border-radius: 20px;
+            color: white;
+            background-color: rgb(255, 0, 0);
+            transition: all 1s ease-in;
+            scale: 0.9;
+        }
+.div11 i:hover{
+    color: black;
+    background-color: rgb(243, 245, 247);
+    transform: scale(0.9);
+}
+
+.main1 p{
+  font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lefrig i{
+  font-size: 30px;
+  border-radius: 10px;
+  color: red;
+ 
+}
+.lefrig{
+  background-color: white;
+}
+
+
+
+
+    
+  </style>
+</head>
+<body>
+ <div class="home1">
+    <div class="home">
+        <div class="nav">
+            <div class="navl">
+               <para><i class="fa-solid fa-phone"></i></para>  
+               <para>Tel: +440-550-660 </para>
+               <para>|</para> 
+               <para><i class="fa-solid fa-envelope"></i>   </para>
+               <para>bloodworld123@gmail.com</para>
+               <para>|</para> 
+               <para>24/7 Available<br>Sunday-Saturday</para>
+            </div>
+            <div class="navr">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <img class="img" src="https://media.istockphoto.com/id/1307616924/vector/switzerland-flag-in-heart-country-of-europe-isolated-vector-icon-in-flat.jpg?s=612x612&w=0&k=20&c=lb5IUkD6Uy1I8DvrLYSGqIljsZBmeqqzEwvDcRr9WoU=">
+                
+                <p class="p">BLOOD WORLD</p>
+            </div>
+        
+        <div class="right">
+            <a href="" class="a">Home</a>
+            <a href="about1.html">AboutUs</a>
+            <a href="events.html">Events</a>
+            <a href="donate.html">Donate Blood</a>
+            <a href="need.html">Need Blood</a>
+          
+        </div>
+           
+                <div class="lefrig">
+                 <a href="loginblood.html"><i class="fa-solid fa-circle-user"></i></a> 
+                  </div>
+                    <div class="drop">
+                    
+                    </div>
+                </div>
+            </div>
+            <section>
+              <div class="main1">
+                 <h1>Donate Blood,<br>
+                   Keep the World Beating</h1> 
+                   <p>Blood donation is the process of voluntarily giving blood to help patients in need of transfusions.<br> The donated blood is tested, processed, and stored for future use in hospitals and medical facilities.
+                  </p>
+                  <div class="div">
+                     <a href="knowmore.html"> <button class="k">Know More</button></a>
+                   <a href="donate.html"><button class="s">Start Donating</button></a>   
+
+                  </div>
+              </div>  
+          </section>
+          <div class="os" id="donp">
+            <div class="osleft">
+              <div class="top">
+                <div class="l">
+                    <p class="lr"> 100+</p><br>
+                    <p class="lr1">Blood Cooperations</p>
+                </div>
+                <div class="l">
+                    <p class="lr">350+</p><br>
+                    <p class="lr1">Expert Staff</p>
+                </div>
+                <div class="l">
+                    <p class="lr">900+</p><br>
+                    <p class="lr1">Blood Donations</p>
+            </div>
+              </div>
+              <div class="botm">
+                <div class="btml">
+                    <h2>Why We Do It</h2>
+                    <p>Every 5 seconds,someone who are<br>needs a blood transfusion immediately.<br>Yet,less than 5% of people are eligible<br> donors give blood.We're here for you <br> to bridge that gap,making donation<br> simple,safe and rewarding. The Blood<br> donation is a selfless act that actively <br>involves giving blood to help save lives of people.</p>
+                </div>
+                <div class="btmr">
+                    <img src="https://blood-center.sites.motocms.com/res/671f4ec30e234dbaa78e9a5f/6721eb3781efc2549c46a039_optimized_1349.webp">
+                    </div>
+              </div>
+            </div>
+            <div class="osright">
+              <div class="osl">
+          <h2>━━━━━ Our Story</h2>
+          <h1>Dedicated to Life,The story<br>of Our Blood Drive Initiative</h1>
+          <p>Blood donation is a selfless act that involves giving blood to help save lives. <br>The process begins with registration, where personal information is provided,<br> followed by a medical screening to ensure safe donation.</p>
+          </div>
+          <div class="osrt">
+                 <div class="osr1">
+                  <h2>Have a questions ?</h2><hr>
+                  <p>If you have any questions and <br>querries you can contact or <br>connect with us at anytime.<br>We are 24/7 available for you. </p>
+                  <p><i class="fa-solid fa-phone"></i>Call Us</p>
+                     <p class="ph">+440-550-660</p>
+                 </div>
+                 <div class="osr2">
+                  <p><i class="fa-solid fa-heart"></i>Donate Blood Save Life</p>
+                  <p><i class="fa-solid fa-heart"></i> Donate blood Be a hero</p>
+                  <p><i class="fa-solid fa-heart"></i> Save life ,share your blood</p>
+                  <p><i class="fa-solid fa-heart"></i> Be a donor,Be a hero</p>
+                  <p><i class="fa-solid fa-heart"></i>Donate blood be a lifesaver</p>
+                  
+                 </div>
+          </div>
+          </div>
+      </div>
+
+      <div class="dp"   id="main1">
+        <p class="dp0">━━━━━ Donation Process</p>
+        <div class="dp1">
+            <h1>Blood Donation<br>
+              Process steps</h1>
+         
+              <div class="dp2">
+         <P>The donation process from the time you arrive centre until the time you leave.<br>The blood donation process involves registration, medical screening, the blood <br> collection,and post-donation care, taking around 30-60 minutes.</P>
+         <a href="donate.html"><button class="pp">Donate Blood</button></a>
+     </div>
+     </div>
+ </div>
+
+
+
+
+
+ <div class="process">
+  <div class="pic1">
+      <img class="pi" src="https://img.freepik.com/premium-photo/online-registration-form-modish-form-filling_31965-54570.jpg?w=900">
+
+      <h2>
+          ━ step 1 <br>Registration</h2>
+      <p class="oo">Registration involves providing<br>
+          personal and medicl information<br>
+          of donators.
+      </p>
+      <i class="fa-solid fa-droplet"></i>
+    </div>
+  <div class="pic1">
+      <img  class="pi" src="https://ik.imagekit.io/sparshhospitalpanvel/wp-content/uploads/2022/03/basic.jpg">
+      <h2>
+          ━ step 2<br>Health Checkup</h2>
+      <p class="oo">Medical screening to check blood <br>pressure and hemoglobin. health<br> tests to ensure safe donation.</p>
+      <i class="fa-solid fa-droplet"></i>
+      
+    </div>
+  <div class="pic1">
+     
+      <img class="pi" src="https://cdn.apollohospitals.com/health-library-prod/2021/06/shutterstock_541600759-scaled.jpg">
+      <h2> ━ step 3<br>Blood Donation</h2>
+      <p class="oo" >
+          Blood donation is safe process <br>where an individual donates <br>blood to help patients <br>
+      </p>
+      <i class="fa-solid fa-droplet"></i>
+    </div>
+  <div class="pic1">
+      <img  class="pi" src="https://img.freepik.com/premium-photo/patient-having-meal-hospital-bed_13339-144248.jpg">
+      <h2> ━ step 4<br>Refreshment</h2>
+      <p class="oo" >
+          After blood donation, donors are <br>provided refreshments to help<br> replenish of blood sugar levels.</p>
+          <i class="fa-solid fa-droplet"></i>
+</div>
+</div>
+</div>
+<div class="yyd" >
+  <div class="ydonate">
+  
+  <div class="yl">
+  <img src="https://regencyhealthcare.in/wp-content/uploads/2019/07/blood-donation-blog.jpg"><br>
+  <img  class="im" src="https://advinhealthcare.com/wp-content/uploads/2022/10/Blood-Donation-2.jpg">
+  </div>
+  <div class="yr">
+  <div class="yrt">
+   <h2>━━━━━ Why Donate?</h2>
+   <h1>The Life You Save Could Be <br>Someone You Love</h1>
+   <p>Donating blood is a vital act of kindness that can help save the lives of the  patients in need. <br>Blood donations are essential for various medical procedures, including surgeries,operations <br>trauma care, and treatment of blood disorders. By donating blood, individuals can make a <br>significant difference in their community and help ensure that patients receive the support <br> life-saving transfusions they need.
+  
+   </p>
+  </div><br>
+  <hr>
+  <br>
+  <br>
+  <div class="yrb">
+       <div class="yb1">
+         <i class="fa-solid fa-droplet"></i> <br><br>
+         <h2>
+           Your Blood,Their <br>
+           Second Chance</h2> <br>
+           <p>Donate blood and save thousands <br>of life.
+             Be a donor and Be a Real 
+             <br>Hero.Blood Donation is the life<br> saving process.
+           </p>
+       </div>
+       <div class="yb1">
+         <i class="fa-solid fa-heart"></i> <br><br>
+         <h2>
+           Urgent Appeal For<br>
+           Blood Donors</h2> <br>
+           <p>Donate blood and save thousands <br>of life.
+             Be a donor and Be a Real 
+             <br>Hero.Blood Donation is the life<br> saving process.
+           </p>
+       </div>
+       <div class="yb1">
+         <i class="fa-solid fa-users"></i> <br><br>
+         <h2>
+         Save Thousands of<br>
+           Lifes in minute</h2> <br>
+           <p>Donate blood and save thousands <br>of life.
+             Be a donor and Be a Real 
+             <br>Hero.Blood Donation is the life<br> saving process.
+           </p>
+       </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <footer>
+    <div class="footer">
+    <div class="d1">
+    <i class="fa-solid fa-droplet"></i><br> 
+    <h2>Blood World</h2>
+    <p>We are here to save the <br>life of thousands people <br>By donating blood, all <br>can make a significant in<br> their community</p>
+    </div>
+    <div class="d2">
+    <h2>Quick Links</h2>
+      <a href="Home.html">Home</a>
+      <a href="about1.html">AboutUs</a>
+      <a href="events.html">Events</a>
+     
+    </div>
+    <div class="d3">
+    <h2>Information</h2>
+    <a href="donate.html">Donate Blood</a>
+      <a href="need.html">Need Blood</a>
+    </div>
+    <div class="d4">
+    <h2>Contact info</h2>
+    <p><i class="fa-solid fa-phone"></i>+9988776655</p>
+    <p><i class="fa-solid fa-envelope"></i>bloodworld123.gmail.com</p>
+    <p><i class="fa-solid fa-location-dot"></i>54-3anywhereinIndia,Andhra pradesh</p>
+    </div>
+    
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div class="div1">
+    <div class="div11">
+    <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-facebook"></i>
+    </div>
+    <div class="div12">
+    <p>Copyright &copy;2025 Donors,All rights reserved,present by BloodworldIndia</p>
+    </div>
+    </div>
+</footer>
+</body>
+</html>    
